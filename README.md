@@ -19,3 +19,5 @@ SHIFT + 4 7 = ə ŭ (Moroccan short vowels)
 SHIFT + 5 = ś (of the Proto-Semitic sort)
 
 SHIFT + 6, minus sign, equals sign = combining underdot, caron, macron (use to get symbols like the emphatic PS ś, etc.)
+
+SHIFT + q = ∅ (zero constituent)

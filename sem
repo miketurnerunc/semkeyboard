@@ -18,6 +18,8 @@
 
 // SHIFT + 6, minus sign, equals sign = combining underdot, caron, macron (use to get symbols like the emphatic PS ś, etc.)
 
+// SHIFT + q = ∅ (zero constituent)
+
 
 default
 partial alphanumeric_keys modifier_keys
@@ -39,7 +41,7 @@ xkb_symbols "sem" {
     key <AE11> {	[     minus,	U030C		]	}; // combining caron
     key <AE12> {	[     equal,	U0304		]	}; // combining macron
 
-    key <AD01> {	[	  q,	Q 		]	};
+    key <AD01> {	[	  q,	U2205 		]	}; // ∅
     key <AD02> {	[	  w,	U02B7		]	}; // ʷ
     key <AD03> {	[	  e,	U0113		]	}; // ē
     key <AD04> {	[	  r,	U1E5B		]	}; // ṛ
