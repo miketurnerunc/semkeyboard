@@ -8,7 +8,11 @@
 
 // SHIFT + x c = š č (postaveolar fricative/affricate)
 
+// SHIFT + j y = ǧ ž (jim variants)
+
 // SHIFT + f v =  ṯ ḏ (dental fricatives)
+
+// SHIFT + n = ñ (palatalized nasal, marginal Sudanese phoneme)
 
 // SHIFT + 2 3 = ʾ ʿ (glottal stop & pharyngeal fricative)
 
@@ -46,7 +50,7 @@ xkb_symbols "sem" {
     key <AD03> {	[	  e,	U0113		]	}; // ē
     key <AD04> {	[	  r,	U1E5B		]	}; // ṛ
     key <AD05> {	[	  t,	U1E6D		]	}; // ṭ
-    key <AD06> {	[	  y,	Y		]	};
+    key <AD06> {	[	  y,	U017E		]	}; // ž
     key <AD07> {	[	  u,	U016B		]	}; // ū
     key <AD08> {	[	  i,	U012B		]	}; // ī
     key <AD09> {	[	  o,	U014D		]	}; // ō
@@ -71,7 +75,7 @@ xkb_symbols "sem" {
     key <AB03> {	[  	  c,	U010D		]	}; // č
     key <AB04> {	[	  v,	U1E0F		]	}; // ḏ
     key <AB05> {	[	  b,	U1E05		]	}; // ḅ
-    key <AB06> {	[	  n,	N		]	};
+    key <AB06> {	[	  n,	U00F1		]	}; // ñ
     key <AB07> {	[	  m,	U1E43		]	}; // ṃ
     key <AB08> {	[     comma,	less		]	};
     key <AB09> {	[    period,	greater		]	};
