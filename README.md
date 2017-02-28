@@ -31,7 +31,7 @@ SHIFT + q = ∅ (zero constituent)
 On Ubuntu:
 - save "sem" to /usr/share/X11/xkb/symbols
 - edit /usr/share/X11/xkb/rules/evdev.xml to include the following:
-
+```
     <layout>
       <configItem>
         <name>sem</name>
@@ -40,3 +40,4 @@ On Ubuntu:
         <languageList><iso639Id>sem</iso639Id></languageList>
       </configItem>
     </layout>
+```
