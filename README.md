@@ -70,7 +70,7 @@ SHIFT + 6, minus sign, equals sign = ͡  (tie bar), caron (ultra-short vowels), 
 
 SHIFT + q = ∅ (zero constituent)
 
-###
+### Install
 
 On Ubuntu:
 - save "sip" to /usr/share/X11/xkb/symbols
