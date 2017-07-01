@@ -77,15 +77,15 @@ SHIFT + q = ∅ (zero constituent)
 ###
 
 On Ubuntu:
-- save "sem-ipa" to /usr/share/X11/xkb/symbols
+- save "sip" to /usr/share/X11/xkb/symbols
 - edit /usr/share/X11/xkb/rules/evdev.xml to include the following:
 ```
     <layout>
       <configItem>
-        <name>sem</name>
-        <shortDescription>sem-ipa</shortDescription>
-        <description>Semiticist Keyboard (IPA)</description>
-        <languageList><iso639Id>sem-ipa</iso639Id></languageList>
+        <name>sip</name>
+        <shortDescription>sip</shortDescription>
+        <description>Semiticist IPA Keyboard</description>
+        <languageList><iso639Id>sip</iso639Id></languageList>
       </configItem>
     </layout>
 ```
