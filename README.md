@@ -1,8 +1,12 @@
-# Simple XKB Keyboard Layout for Semiticists
+## Simple XKB Keyboard Layouts for Semiticists
 
-A custom layout that leaves default zero-level keys alone, so you can take notes and accomplish a wider array of tasks without switching layouts. Made to be simple and easy to memorize. Includes most of the symbols that linguists working with Semitic languages use, and little more.
+Custom layouts that leaves default zero-level keys alone, so you can take notes and accomplish a wider array of tasks without switching layouts. Made to be simple and easy to memorize. Includes most of the symbols that linguists working with Semitic languages use, and little more.
 
-# Shortcuts
+## Traditional Semiticist Notation
+
+sem
+
+### Shortcuts
 
 SHIFT + a e o i u = ā ē ī ō ū (Pan-Arabic long vowels)
 
@@ -26,7 +30,7 @@ SHIFT + 6, minus sign, equals sign = combining underdot, caron, macron (use to g
 
 SHIFT + q = ∅ (zero constituent)
 
-# Install
+### Install
 
 On Ubuntu:
 - save "sem" to /usr/share/X11/xkb/symbols
@@ -38,6 +42,50 @@ On Ubuntu:
         <shortDescription>sem</shortDescription>
         <description>Semiticist Keyboard</description>
         <languageList><iso639Id>sem</iso639Id></languageList>
+      </configItem>
+    </layout>
+```
+
+## IPA Notation (optimized for Arabic)
+
+sem-ipa
+
+### Shortcuts
+
+SHIFT + o = ∅ (zero marker)
+
+SHIFT + r t s d h l z = ᵲ ᵵ ᵴ ᵭ ħ ɫ ᵶ (various emphatics)
+
+SHIFT + x = ʃ (postaveolar fricative)
+
+SHIFT + g = ɣ 
+
+SHIFT + j = Ʒ
+
+SHIFT + f v =  θ ð (dental fricatives)
+
+SHIFT + 2 3 = ʔ ʕ (glottal stop & pharyngeal fricative)
+
+SHIFT + 4 7 = ᵊ ŭ
+
+SHIFT + 5 = ˤ (superscript pharyngeal)
+
+SHIFT + 6, minus sign, equals sign = ͡  (tie bar), caron (ultra-short vowels), ː (long vowels)
+
+SHIFT + q = ∅ (zero constituent)
+
+###
+
+On Ubuntu:
+- save "sem-ipa" to /usr/share/X11/xkb/symbols
+- edit /usr/share/X11/xkb/rules/evdev.xml to include the following:
+```
+    <layout>
+      <configItem>
+        <name>sem</name>
+        <shortDescription>sem-ipa</shortDescription>
+        <description>Semiticist Keyboard (IPA)</description>
+        <languageList><iso639Id>sem-ipa</iso639Id></languageList>
       </configItem>
     </layout>
 ```
