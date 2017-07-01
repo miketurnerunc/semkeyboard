@@ -2,9 +2,7 @@
 
 Custom layouts that leaves default zero-level keys alone, so you can take notes and accomplish a wider array of tasks without switching layouts. Made to be simple and easy to memorize. Includes most of the symbols that linguists working with Semitic languages use, and little more.
 
-## Traditional Semiticist Notation
-
-sem
+## Traditional Semiticist Notation (sem)
 
 ### Shortcuts
 
@@ -46,9 +44,7 @@ On Ubuntu:
     </layout>
 ```
 
-## IPA Notation (optimized for Arabic)
-
-sem-ipa
+## IPA Notation (sip)
 
 ### Shortcuts
 
