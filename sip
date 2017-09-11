@@ -2,7 +2,7 @@
 
 // Custom keyboard layout -- leaves default zero-level keys alone, so you can take notes and accomplish a wider array of tasks without switching layouts.
 
-// SHIFT + o = ∅ (zero marker)
+// SHIFT + a o = ɑ ∅ (vowel /ɑ/; zero marker)
 
 // SHIFT + r t s d h l z = ᵲ ᵵ ᵴ ᵭ ħ ɫ ᵶ (various emphatics)
 
@@ -58,7 +58,7 @@ xkb_symbols "sem" {
     key <AD11> {	[ bracketleft,	braceleft	]	};
     key <AD12> {	[ bracketright,	braceright	]	};
 
-    key <AC01> {	[	  a,	A 		]	}; // 
+    key <AC01> {	[	  a,	U0251 		]	}; // ɑ
     key <AC02> {	[	  s,	U1D74		]	}; // ᵴ
     key <AC03> {	[	  d,	U1D6D		]	}; // ᵭ
     key <AC04> {	[	  f,	U03B8		]	}; // θ

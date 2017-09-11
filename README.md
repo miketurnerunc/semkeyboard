@@ -48,7 +48,7 @@ On Ubuntu:
 
 ### Shortcuts
 
-SHIFT + o = ∅ (zero marker)
+// SHIFT + a o = ɑ ∅ (vowel /ɑ/; zero marker)
 
 SHIFT + r t s d h l z = ᵲ ᵵ ᵴ ᵭ ħ ɫ ᵶ (various emphatics)
 
