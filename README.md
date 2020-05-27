@@ -14,6 +14,8 @@ SHIFT + x c = š č (postaveolar fricative/affricate)
 
 SHIFT + j y = ǧ ž (jim variants)
 
+SHIFT + g = ġ (ghayn)
+
 SHIFT + f v =  ṯ ḏ (dental fricatives)
 
 n = ñ (palatalized nasal, marginal Sudanese phoneme)
